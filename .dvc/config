@@ -1,0 +1,7 @@
+[core]
+    remote = normal
+['remote "normal"']
+    url = s3://dacbd-test/20230308
+['remote "version"']
+    url = s3://dacbd-test-v/20230308
+    version_aware = true
